@@ -1,0 +1,40 @@
+spring:
+  jpa:
+    database: mysql
+    database-platform: cn.wewin.modules.springdatajpa.hibernate.dialect.MySqlDialect
+    show-sql: true
+    open-in-view: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate.cache.use_second_level_cache: false
+      hibernate.cache.use_query_cache: false
+      hibernate.generate_statistics: false
+      hibernate.format_sql: true
+
+#
+#shiro:
+#  login-url: /login #登录入口URL
+#  success-url: /home #登录成功跳转URL
+#  unauthorized-url: /403 #当访问未授权页面时跳转至该URL，将为filter chain中的每个AuthorizationFilter设置跳转URL（如果目标没有指定）
+##  sign-in:
+##    user-param: username #用户名参数名称
+##    password-param: password #密码参数名称
+##    remember-me-param: rememberMe #记住我参数名称
+#  hash-iterations: 1024 #加密迭代次数，强制设为至少1次（即使设置0或负数）
+#  hash-algorithm-name: SHA-1 #加密算法名称，如：MD2/SHA-1/SHA-256/SHA-384/SHA-512
+#  filters:
+#    authLogin: com.igu.developer.demo.framework.security.stateless.StatelessAuthcFilter
+#  filter-chain-definitions: #默认为空，一般如下配置
+#    /details/**: anon
+#    /mall/login: anon
+#    /graphql/**: anon
+#    /mall/register: anon
+#    /driver/login: anon
+#    /driver/register: anon
+#    /common/dictionary/query: anon
+#    /common/car/type: anon
+#    /common/smsCode/send: anon
+#    /common/files/**: anon
+#    /**: authLogin
+#  realm-class: com.igu.developer.demo.framework.security.stateless.StatelessRealm
