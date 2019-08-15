@@ -1,4 +1,3 @@
-
 ## 开发规范和技术标准（白皮书）
 * [组织结构](#组织结构)
 * [开发流程](#开发流程)
@@ -9,15 +8,15 @@
     * [编码规范](#编码规范)
     * [版本管理](#版本管理)
 * [示例](#示例)
-* [Folio基础框架](#Folio基础框架)
+* [Folio基础框架](#folio基础框架)
 * [产品规范](#产品规范)
-* [UX/UI设计规范](#UX/UI设计规范)
+* [UX/UI设计规范](#ux_ui)
 * [测试规范](#测试规范)
 * [发行规范](#faxingguifan)
-## 
-* <font size=4  name="组织结构">组织结构</font>
-* <font size=4>开发流程</font>
-* <font size=4>会议组织流程</font>
+##
+* <font size=4><a href="#组织结构" id="user-content-组织结构" style="color:black" title="">组织结构</a></font>
+* <font size=4><a href="#开发流程" id="user-content-开发流程" style="color:black" title="">开发流程</a></font>
+* <font size=4><a href="#会议组织流程" id="user-content-会议组织流程" style="color:black" title="">会议组织流程</a></font>
     1. 上图LSP项目全体会议 <br>
         召集人：上图LSP项目经理负责召开<br>
         频次：每月一次<br>
@@ -39,9 +38,9 @@
         * 分配开发任务 <br>
         
         存档：相关工作文档、会议记录 <br>
-* <font size=4>需求管理规范</font>
-* <font size=4>开发规范</font>
-    * <font size=3>命名规范 </font> <br>
+* <font size=4><a href="#需求管理规范" id="user-content-需求管理规范" style="color:black" title="">需求管理规范</a></font>
+* <font size=4><a href="#开发规范" id="user-content-开发规范" style="color:black" title="">开发规范</a></font>
+    * <font size=3><a href="#命名规范" id="user-content-命名规范" style="color:black" title="">命名规范</a></font> <br>
         <font size=3>包命名规范 </font> <br>
         包命名格式为：公司名.项目名.模块名。如：cn.sh.library.folio.xxx，其中 cn.sh.library为上图公司名，folio为项目名，xxx为具体的模块名。其他推荐包命名规则如下：<br>
             - bean：存放实体类文件<br>
@@ -61,13 +60,13 @@
             其他相关数据库规范详见 <a href="http://sig.library.sh.cn:8090/pages/viewpage.action?pageId=2818252">PostgreSQL 数据库开发规范</a><br><br><br>
 
 
-    * <font size=3>编码规范 </font> <br>
+    * <font size=3><a href="#编码规范" id="user-content-编码规范" style="color:black" title="">编码规范</a> </font> <br>
         <font size=3>CheckStyle </font> <br>
         <a href="https://checkstyle.sourceforge.io/">Checkstyle</a>是一款检查java程序代码样式的工具，可以有效的帮助我们检查代码以便更好的遵循代码编写标准。<br>
         上图LSP编码规范采用google规范(<font color='rgb(255,102,0)'>暂定</font>)，具体规范内容详见 <a href="http://sig.library.sh.cn:8090/download/attachments/2818186/google-java-styleguide-zh.pdf?version=1&modificationDate=1556165372952&api=v2">Google Java 编程规范(中文版)</a> <br>
         checkstyle.xml文件内容详见 <a href="https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml">google_checkstyle.xml</a> <br> <br> <br>
 
-    * <font size=3>版本管理 </font> <br>
+    * <font size=3><a href="#版本管理" id="user-content-版本管理" style="color:black" title="">版本管理</a> </font> <br>
         <font size=3>版本号 </font> <br>
         版本号管理采用 语义版本号 进行管理<br>
         软件版本号，由三部分组成，如 1.8.2<br>
@@ -76,7 +75,7 @@
         第二个数字是次要版本。无论何时进行向后兼容的更改，例如添加新功能或可选字段，都需要对其进行递增。<br>
         第三个数字是软件版本。应该增加不影响接口的更改，例如修复bug或提高效率。<br><br> <br>
         
-* <font size=4>示例</font>
+* <font size=4><a href="#示例" id="user-content-示例" style="color:black" title="">示例</a></font>
     * Vertx
 
         [官方示例](https://github.com/vert-x3/vertx-examples "官方示例") <br>
@@ -120,11 +119,11 @@ Vertx. 开发指南 (中文翻译版)<a href="https://vertxchina.github.io/vertx
 </tbody>
 </table>
 
-* <font size=4>产品规范</font>
-* <font size=4>UX/UI设计规范</font> <br>
+* <font size=4><a href="#产品规范" id="user-content-产品规范" style="color:black" title="">产品规范</a></font>
+* <font size=4><a href="#ux_ui" id="user-content-ux_ui" style="color:black" title="">UX/UI设计规范</a></font> <br>
     参考Folio UX设计规范。[https://ux.folio.org/docs/](https://ux.folio.org/docs/)
-* <font size=4>测试规范</font>
-* <font size=4 > <a href="#faxingguifan" id="user-content-faxingguifan" color="black">发行规范<a></font>
+* <font size=4 ><a href="#测试规范" id="user-content-测试规范" style="color:black" title="">测试规范</a></font>
+* <font size=4 name="faxingguifan"><a href="#faxingguifan" id="user-content-faxingguifan" style="color:black" title="">发行规范</a></font>
 
 <style type="text/css">  
 table {
