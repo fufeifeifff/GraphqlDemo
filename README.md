@@ -14,7 +14,7 @@
 * [测试规范](#测试规范)
 * [发行规范](#faxingguifan)
 ##  
-* <font size=4><a href="#组织结构" id="user-content-组织结构" style="color:black" title="">组织结构</a></font>
+* <font size=4 color='black'><a href="#组织结构" id="user-content-组织结构" style="color:black" title="" color='black'>组织结构</a></font>
 * <font size=4><a href="#开发流程" id="user-content-开发流程" style="color:black" title="">开发流程</a></font>
 * <font size=4><a href="#会议组织流程" id="user-content-会议组织流程" style="color:black" title="">会议组织流程</a></font>
     1. 上图LSP项目全体会议 <br>
