@@ -123,7 +123,7 @@ Vertx. 开发指南 (中文翻译版)<a href="https://vertxchina.github.io/vertx
 * <font size=4>UX/UI设计规范</font> <br>
     参考Folio UX设计规范。[https://ux.folio.org/docs/](https://ux.folio.org/docs/)
 * <font size=4>测试规范</font>
-* <font size=4 name="faxingguifan" id="faxingguifan">发行规范</font>
+* <font size=4 name="faxingguifan" id="faxingguifan"> <a href="faxingguifan">发行规范<a></font>
 
 <style type="text/css">  
 table {
