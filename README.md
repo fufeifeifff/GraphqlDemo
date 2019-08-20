@@ -14,7 +14,8 @@
 * [测试规范](#测试规范)
 * [发行规范](#faxingguifan)
 ##  
-* <font size=4><a href="#组织结构" id="user-content-组织结构" style="color:black" title="">组织结构</a></font>
+
+* <font size=4><a href="#组织结构" id="user-content-组织结构"  style="color:black" title="">组织结构</a></font>
 * <font size=4><a href="#开发流程" id="user-content-开发流程" style="color:black" title="">开发流程</a></font>
 * <font size=4><a href="#会议组织流程" id="user-content-会议组织流程" style="color:black" title="">会议组织流程</a></font>
     1. 上图LSP项目全体会议 <br />
@@ -58,7 +59,6 @@
         <font size=3>数据库表字段命名规范 </font> <br />
             表命名格式为:公司名_模块名_明细表名称。如 shlibrary_modulename_xxxx，其中shlibrary为上图的公司名，modulename为模块名，xxxx为模块中具体设计的详细表名或功能点<br />
             其他相关数据库规范详见 <a href="http://sig.library.sh.cn:8090/pages/viewpage.action?pageId=2818252">PostgreSQL 数据库开发规范</a><br /><br /><br />
-
 
     * <font size=3><a href="#编码规范" id="user-content-编码规范" style="color:black" title="">编码规范</a> </font> <br />
         <font size=3>CheckStyle </font> <br />
@@ -119,7 +119,7 @@ Vertx. 开发指南 (中文翻译版)<a href="https://vertxchina.github.io/vertx
 </tbody>
 </table>
 
-* <font size=4><a href="#产品规范" id="user-content-产品规范" style="color:black" title="">产品规范</a></font>
+* <font size=4><span href="#产品规范" id="user-content-产品规范" style="color:black" title="">产品规范</span></font>
 * <font size=4><a href="#ux_ui" id="user-content-ux_ui" style="color:black" title="">UX/UI设计规范</a></font> <br />
     参考Folio UX设计规范。[https://ux.folio.org/docs/](https://ux.folio.org/docs/)
 * <font size=4 ><a href="#测试规范" id="user-content-测试规范" style="color:black" title="">测试规范</a></font>
